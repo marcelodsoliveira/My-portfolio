@@ -163,3 +163,104 @@ li .langs {
 }
 
 
+/* Responsividade */
+
+@media(max-width: 768px) {
+
+  /* Geral */
+
+  .container {
+    padding: 20px;
+  }
+
+}
+
+/* Sobre */
+
+#about-area img {
+  margin-top: 100px;
+}
+
+/* Aprendizagem na programação */
+
+#programming-area .langs {
+ left: 30px;
+ width: 50px;
+}
+
+/* Portfólio */
+
+
+#projects-area .project-box img {
+  width: 150px;
+}
+
+#projects-area .project-box {
+  right: 200px;
+}
+
+
+/* Footer */
+
+
+#socialLinks {
+  left: 220px;
+}
+
+
+
+@media(max-width: 425px) {
+
+
+  .container-fluid {
+    
+  }
+
+
+  #about-area {
+    margin-top: 0px;
+  }
+
+  #about-area p {
+    text-align: center;
+  }
+
+  #about-area img {
+    margin-top: 0px;
+  }
+
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 100px;
+    left: 42.5%;
+  }
+
+  /* Aprendizagem na programação */
+
+#programming-area .langs {
+  left: 20px;
+  width: 30px;
+ }
+ 
+ /* Portfólio */
+  
+ #projects-area .project-box img {
+   width: 30px;
+ }
+ 
+ #projects-area .project-box {
+   right: 200px;
+ } 
+ 
+ /* Footer */
+ 
+ #socialLinks {
+   left: 100px;
+ }
+ 
+  
+}
+
