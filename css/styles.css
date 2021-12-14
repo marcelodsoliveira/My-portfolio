@@ -1,0 +1,165 @@
+/* Gerais */
+
+body {
+  font-family: 'Roboto' sans-serif;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+/* Barra de navegação */
+
+header, .navbar {
+  background-color: #353D41;
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  width: 55px;
+}
+
+/* Banner Principal */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainBanner {
+  height: 65vh;
+}
+
+/* Sobre mim */
+
+#about-area {
+  background-color: #f9f9f9;
+}
+
+.main-title {
+  columns: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.main-title::after {
+  content: "";
+  border-top: 2px solid #333;
+  width: 15%;
+  position: absolute;
+  top: 60px;
+  left: 42.5%;
+}
+
+.about-title {
+  font-size: 17px;
+  color: #444;
+  text-transform: uppercase;
+  font-weight: bold;
+  right: 110%;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+}
+
+
+#my-education {
+  background-color: #FFFFFF;
+}
+
+.education-box li {
+  font-size: 16px;
+}
+
+/* Experiência Profissional */
+
+#my-experience {
+  background-color: #f9f9f9;
+
+}
+
+/* Aprendizagem na programação */
+
+#programming-area {
+ 
+  background-color: #FFFFFF;
+  /*
+    Se colocar o background-color desativa o paralax
+  */
+
+
+}
+
+ul .langs {
+  gap: 0.5rem;
+  position: relative;
+  left: 160px;
+}
+
+li .langs {
+  width: 70px;
+  
+}
+
+/* Portfólio */
+
+#projects-area {
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.project-box {
+  left: 180px;
+  background-color: #f9f9f9;
+}
+
+.project-box p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project-box a:hover {
+  text-decoration: none;
+}
+
+/* Rodapé */
+
+#socialLinks {
+  gap: 0.5rem;
+  width: 30px;
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 420px;
+}
+
+#copy-area {
+  background-color: #444;
+}
+
+#copy-area .container {
+  padding: 10px 0;
+  text-align: center;
+}
+
+#copy-area .container p {
+  margin-bottom: 0;
+  color: #FFFFFF;
+}
+
+
