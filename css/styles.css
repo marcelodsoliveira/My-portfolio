@@ -261,8 +261,18 @@ li .langs {
     margin-bottom: 40px;
   }
 
+  #my-education .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 80px;
+    left: 42.5%;
+  }
+
   .education-box h4 {
     text-align: center;
+    margin-top: 20px;
   }
 
   .education-box li {
@@ -288,6 +298,19 @@ li .langs {
 
     /* Aprendizagem na programação */
 
+  #programming-area .main-title::after {
+      content: "";
+      border-top: 2px solid #333;
+      width: 15%;
+      position: absolute;
+      top: 90px;
+      left: 42.5%;
+    }
+
+  #programming-area li {
+    margin-top: 30px;
+  }
+
   #programming-area .langs {
   left: 20px;
   width: 55px;
@@ -299,6 +322,7 @@ li .langs {
 
   #projects-area .project-box {
    left: 0px;
+   margin-top: 30px;
   }
 
   #projects-area .project-box img {
