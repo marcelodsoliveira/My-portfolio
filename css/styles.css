@@ -272,7 +272,7 @@ li .langs {
 
   #programming-area .langs {
   left: 20px;
-  width: 45px;
+  width: 55px;
   margin: 1px;
   padding: 6px;
   }
@@ -284,13 +284,17 @@ li .langs {
   }
 
   #projects-area .project-box img {
-    margin-left: 70px;
+    margin-left: 90px;
+   }
+
+   #projects-area .project-box p {
+     font-size: 11pt;
    }
  
  
  /* Footer */
  
   #socialLinks {
-   left: 20px;
+   left: 40px;
   }
 }
