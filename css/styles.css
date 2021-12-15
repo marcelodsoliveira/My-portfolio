@@ -284,7 +284,7 @@ li .langs {
   }
 
   #projects-area .project-box img {
-    margin-left: 90px;
+    margin-left: 120px;
    }
 
    #projects-area .project-box p {
@@ -295,6 +295,6 @@ li .langs {
  /* Footer */
  
   #socialLinks {
-   left: 40px;
+   left: 60px;
   }
 }
