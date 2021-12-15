@@ -86,12 +86,20 @@ p {
   font-size: 16px;
 }
 
+
+/* Formação Acadêmica */
+
+#my-education {
+  text-align: center;
+}
+
 /* Experiência Profissional */
 
 #my-experience {
   background-color: #f9f9f9;
-
 }
+
+
 
 /* Aprendizagem na programação */
 
@@ -165,68 +173,54 @@ li .langs {
 
 /* Responsividade */
 
-@media(max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
   /* Geral */
 
   .container {
-    padding: 20px;
+    padding: 20px 0;
   }
 
-}
-
-/* Sobre */
-
-#about-area img {
-  margin-top: 100px;
-}
-
-/* Aprendizagem na programação */
-
-#programming-area .langs {
- left: 30px;
- width: 50px;
-}
-
-/* Portfólio */
-
-
-#projects-area .project-box img {
-  width: 150px;
-}
-
-#projects-area .project-box {
-  right: 200px;
-}
-
-
-/* Footer */
-
-
-#socialLinks {
-  left: 220px;
-}
-
-
-
-@media(max-width: 425px) {
-
-
-  .container-fluid {
-    
-  }
-
-
-  #about-area {
-    margin-top: 0px;
-  }
-
-  #about-area p {
-    text-align: center;
-  }
+  /* Sobre */
 
   #about-area img {
-    margin-top: 0px;
+    margin-top: 100px;
+  }
+
+  /* Aprendizagem na programação */
+
+  #programming-area .langs {
+  left: 30px;
+  width: 50px;
+  }
+
+  /* Portfólio */
+
+  #projects-area .project-box img {
+    width: 150px;
+  }
+
+  #projects-area .project-box {
+    right: 200px;
+  }
+
+  /* Footer */
+
+  #socialLinks {
+    left: 220px;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+
+
+  .main-title {
+    columns: #444;
+    margin: 0 0 65px 0;
+    font-size: 25px;
+    text-align: center;
   }
 
   .main-title::after {
@@ -234,33 +228,69 @@ li .langs {
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 42.5%;
   }
 
-  /* Aprendizagem na programação */
+  .about-title {
+    font-size: 15px;
+    text-align: center;
+  }
 
-#programming-area .langs {
+
+  #about-area {
+    margin-top: 0px;
+  }
+ 
+  #about-area img {
+    margin-top: 0px;
+  }
+
+  #about-area p {
+    text-align: center;
+  }
+
+    /* Formação Acadêmica */
+ 
+  .main-title {
+    text-align: center;
+  }
+
+  .education-box li {
+    font-size: 10pt;
+    text-align: justify;
+  }
+
+    /* Experiência Profissional */
+
+  .service-box {
+    text-align: center;
+  }
+
+
+    /* Aprendizagem na programação */
+
+  #programming-area .langs {
   left: 20px;
-  width: 30px;
- }
+  width: 45px;
+  margin: 1px;
+  padding: 6px;
+  }
  
- /* Portfólio */
-  
- #projects-area .project-box img {
-   width: 30px;
- }
+    /* Portfólio */
+
+  #projects-area .project-box {
+   left: 0px;
+  }
+
+  #projects-area .project-box img {
+    margin-left: 70px;
+   }
  
- #projects-area .project-box {
-   right: 200px;
- } 
  
  /* Footer */
  
- #socialLinks {
-   left: 100px;
- }
- 
-  
+  #socialLinks {
+   left: 20px;
+  }
 }
-
