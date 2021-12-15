@@ -72,11 +72,17 @@ header, .navbar {
   right: 110%;
 }
 
+.col-md-6 {
+  margin-top: 30px;
+}
+
 p {
   font-size: 16px;
   color: #444;
 }
 
+
+/* Formação Acadêmica */
 
 #my-education {
   background-color: #FFFFFF;
@@ -87,10 +93,8 @@ p {
 }
 
 
-/* Formação Acadêmica */
-
 #my-education {
-  text-align: center;
+  text-align: justify;
 }
 
 /* Experiência Profissional */
@@ -228,7 +232,7 @@ li .langs {
     border-top: 2px solid #333;
     width: 15%;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: 42.5%;
   }
 
@@ -254,6 +258,11 @@ li .langs {
  
   .main-title {
     text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .education-box h4 {
+    text-align: center;
   }
 
   .education-box li {
@@ -261,10 +270,19 @@ li .langs {
     text-align: justify;
   }
 
+
     /* Experiência Profissional */
 
   .service-box {
     text-align: center;
+  }
+
+  .service-box h4 {
+    margin-top: 30px;
+  }
+
+  .service-box p {
+    margin-top: 20px;
   }
 
 
@@ -284,7 +302,12 @@ li .langs {
   }
 
   #projects-area .project-box img {
-    margin-left: 120px;
+    margin-top: 20px;
+    margin-left: 100px;
+   }
+
+   .img-fluid {
+     width: 350px;
    }
 
    #projects-area .project-box p {
@@ -295,6 +318,6 @@ li .langs {
  /* Footer */
  
   #socialLinks {
-   left: 60px;
+   left: 45px;
   }
 }
