@@ -38,3 +38,12 @@
     }, 1500);
 
   });
+
+  // Ocultando botão hamburguer em mobile devices após click nas seções
+
+  jQuery(document).ready(function() {
+    jQuery(".navbar-nav a").click(function(event) {
+        event.preventDefault();
+        jQuery(".navbar-collapse").collapse('hide');
+    });
+});
