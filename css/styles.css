@@ -136,7 +136,6 @@ li .langs {
 }
 
 .project-box {
-  
   background-color: #f9f9f9;
 }
 
@@ -185,6 +184,16 @@ li .langs {
     padding: 20px 0;
   }
 
+  .main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 100px;
+    left: 42.5%;
+  }
+
+
   /* Sobre */
 
   #about-area img {
@@ -205,13 +214,17 @@ li .langs {
   }
 
   #projects-area .project-box {
-    right: 200px;
+    left: 150px;
   }
 
+  #projects-area .project-box p {
+    margin-right: 300px;
+    text-align: center;
+  }
   /* Footer */
 
   #socialLinks {
-    left: 220px;
+    left: 110px;
   }
 }
 
@@ -321,7 +334,7 @@ li .langs {
     /* Portfólio */
 
   #projects-area .project-box {
-   left: 0px;
+   left: 100px;
    margin-top: 30px;
   }
 
