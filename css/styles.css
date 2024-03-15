@@ -213,10 +213,10 @@ li .langs {
     width: 150px;
   }
 
-  #projects-area .project-box {
+  /**#projects-area .project-box {
     left: 150px;
   }
-
+  */  
   #projects-area .project-box p {
     margin-right: 300px;
     text-align: center;
@@ -334,21 +334,18 @@ li .langs {
     /* Portfólio */
 
   #projects-area .project-box {
-   left: 100px;
-   margin-top: 30px;
+   display: flex;
   }
 
   #projects-area .project-box img {
     margin-top: 20px;
-    margin-left: 100px;
    }
 
-   .img-fluid {
-     width: 350px;
-   }
+  
 
    #projects-area .project-box p {
-     font-size: 11pt;
+     font-size: 12pt;
+     text-align: center;
    }
  
  
